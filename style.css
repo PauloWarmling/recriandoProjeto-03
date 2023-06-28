@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 436px;
+    top: 0;
+    left: 0;
+
+    background-color: #535971;
+    z-index: -1;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 750px;
+    margin: 140px auto;
+}
+
+header section h1 {
+    font-family: "Staatliches", sans-serif;
+    font-size: 48px;
+    line-height: auto;
+    color: white;
+}
+
+header section p {
+    font-size: 20px;
+    line-height: auto;
+    color: white;
+
+    width: 417px;
+}
+
+main .fundo-form,
+footer .fundo-footer {
+    width: 750px;
+    height: auto;
+
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+
+    margin: 322px auto 0;
+}
+
+main .fundo-form {
+    padding: 64px;
+    padding-top: 34px;
+}
+
+fieldset {
+    border: none;
+}
+fieldset legend {
+    text-transform: uppercase;
+}
+
+main .fundo-form fieldset .fieldset-wrapper {
+    color: #535971;
+    font-size: 24px;
+    font-family: "Staatliches", sans-serif;
+    line-height: 34px;
+    margin-top: 30px;
+}
+
+.separador {
+    margin: 16px auto;
+    border: 1px solid #E6E6F0;
+}
+
+.sub-separador {
+    margin: 8px auto;
+    border: 1px solid #E6E6F0;
+}
+
+main .fundo-form .fieldset-wrapper .display-row-nome,
+main .fundo-form .fieldset-wrapper .display-row-data {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+main .fundo-form .fieldset-wrapper .display-row-data {
+    gap: 10px;
+}
+
+main .fundo-form .fieldset-wrapper .display-row-nome .input-wrapper label,
+main .fundo-form .fieldset-wrapper .input-wrapper-horario label,
+main .fundo-form .fieldset-wrapper .input-wrapper label {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+
+    margin-bottom: 8px;
+}
+
+main .fundo-form .fieldset-wrapper .display-row-nome .input-wrapper input,
+main .fundo-form .fieldset-wrapper .input-wrapper-horario input,
+main .fundo-form .fieldset-wrapper .input-wrapper input {
+    width: 100%;
+    height: 56px;
+
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+    
+    padding: 5px 10px;
+}
+
+main .fundo-form .fieldset-wrapper .display-row-nome .input-wrapper input {
+    width: 300px;
+}
+
+main .fundo-form .fieldset-wrapper .input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+main .fundo-form .fieldset-wrapper .input-wrapper label {
+    margin-top: 19px;
+    margin-bottom: 9px;
+}
+
+main .fundo-form .fieldset-wrapper .input-wrapper label span,
+main .fundo-form .fieldset-wrapper .input-wrapper-horario label span{
+    width: 148px;
+    height: 20px;
+
+    color: #C1BCCC;
+    font-size: 12px;
+    font-family: Poppins;
+    line-height: 20px;
+}
+#data, #segunda-data{
+    width: 300px;
+}
+
+#das, #ate, #segunda-das, #segunda-ate {
+    width: 140px;
+}
+
+#label-das, #label-segunda-das, #das, #segunda-das{
+    margin-left: 22px;
+}
+
+h2 {
+    color: #535971;
+    font-size: 20px;
+    font-family: "Staatliches", sans-serif;
+    line-height: 34px;
+
+    margin-top: 32px;
+}
+
+main .fundo-form .fieldset-wrapper .input-wrapper-horario label {
+    margin-top: 8px;
+}
+
+
+/* main .fundo-form,
+footer .fundo-footer {
+    width: 750px;
+    height: auto;
+
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+
+    margin: 322px auto 0;
+} */
+
+footer .fundo-footer {
+    background-color: #535971;
+    border-radius: 0px 0px 20px 20px;
+
+    margin: auto;
+    padding: 50px 71px 50px 71px;
+}
+
+footer .fundo-footer .btn-wrapper {
+    width: 608px;
+
+    border-radius: 20px;
+    background: #FF5374;
+
+    padding: 15px 40px 15px 40px;
+    margin: auto;
+}
+
+footer .fundo-footer .btn-wrapper #btn-salvar {
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+
+    background: #FF5374;
+    color: #FFF;
+
+    margin-left: 214px;
+    border-style: none;
+}
